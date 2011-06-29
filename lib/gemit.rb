@@ -37,7 +37,7 @@ class Gemit
   end
   
   def readme_file
-    "README.rdoc"
+    "README.md"
   end
 
   def version_file
