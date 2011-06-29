@@ -13,9 +13,9 @@ class Gemit
     raise "Name cannot contain white spaces!" if @name =~ /\s/ 
     raise "Folder already exists #{@name}" if File.exists? @name
 
-    FileUtils.mkdir_p(File.join(@name, "bin"), :verbose => @verbose)
-    FileUtils.mkdir_p(File.join(@name, "lib"), :verbose => @verbose)
-    FileUtils.mkdir_p(File.join(@name, "lib", @name), :verbose => @verbose)
+    create_dir("bin")
+    create_dir("lib")
+    create_dir("lib", @name)
 
     create_file(gemspec_file, gemspec)
     create_file(readme_file, readme)
@@ -25,6 +25,10 @@ class Gemit
   end
 
   private
+
+  def create_dir(*args)
+    FileUtils.mkdir_p(File.join(@name, args), :verbose => @verbose)
+  end
 
   def create_file(name, content)
     file_name = File.join(@name, name)
