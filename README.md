@@ -1,21 +1,20 @@
-REAME
-=====
+gemit - a gem scaffolder
+========================
+
+Usually when I set up a new gem this is the structure I use. Can hopefully be useful for someone else as well.
 
 Installation
 ------------
-gem install gemit
+    $ gem install gemit
 
 Usage
 -----
-gemit [gem name]
-
-
-    $> gemit new_gem
-    mkdir -p new_gem/bin
-    mkdir -p new_gem/lib
-    mkdir -p new_gem/lib/new_gem
-    created new_gem/new_gem.gemspec
-    created new_gem/README.md
-    created new_gem/lib/new_gem/version.rb
-    created new_gem/lib/new_gem.rb
-    created new_gem/bin/new_gem
+    $ gemit [gem name]
+    mkdir -p [gem name]/bin
+    mkdir -p [gem name]/lib
+    mkdir -p [gem name]/lib/[gem name]
+    created [gem name]/[gem name].gemspec
+    created [gem name]/README.md
+    created [gem name]/lib/[gem name]/version.rb
+    created [gem name]/lib/[gem name].rb
+    created [gem name]/bin/[gem name]
