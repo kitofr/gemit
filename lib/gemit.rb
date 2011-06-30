@@ -92,7 +92,12 @@ GEMSPEC
 
 Intallation
 -----------
-* gem install #{@name}
+    $ gem install #{@name}
+
+Usage
+-----
+    $ #{@name} <fill in the blanks>
+
 README
   end
   def version
