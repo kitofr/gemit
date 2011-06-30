@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.name        = "gemit"
   s.version     = Gemit::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Kristoffer Roupé"]
+  s.authors     = ["Kristoffer RoupÃ©"]
   s.email       = ["kitofr@gmail.com"]
   s.homepage    = %q{http://github.com/kitofr/gemit}
 
