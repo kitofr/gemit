@@ -7,8 +7,8 @@ Gem::Specification.new do |s|
   s.name        = "gemit"
   s.version     = Gemit::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = `git config --get user.name`
-  s.email       = `git config --get user.email`
+  s.authors     = ["Kristoffer Roupé"]
+  s.email       = ["kitofr@gmail.com"]
   s.homepage    = %q{http://github.com/kitofr/gemit}
 
   s.summary     = %q{A simple gem scaffolder}
