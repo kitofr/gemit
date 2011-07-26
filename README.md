@@ -18,3 +18,7 @@ Usage
     created [gem name]/lib/[gem name]/version.rb
     created [gem name]/lib/[gem name].rb
     created [gem name]/bin/[gem name]
+
+License
+-------
+[BEER/PIZZA PUBLIC LICENSE](http://tomlea.co.uk/WTFBPPL.txt)

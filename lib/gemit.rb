@@ -98,6 +98,10 @@ Usage
 -----
     $ #{@name} <fill in the blanks>
 
+License
+-------
+[BEER/PIZZA PUBLIC LICENSE](http://tomlea.co.uk/WTFBPPL.txt)
+
 README
   end
   def version
